@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="myjscode.js"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>FA18-BCS-141</title>
+</head>
+
+<body>
+    <form action="" id="myForm">
+        <div>
+            Name: <input type="text" id="name" />
+            <span id="nam" style="display: none">Name should be at least 5 characters long!</span>
+        </div>
+
+        <div>Email <input type="text" id="email" /></div>
+        <div>
+            Password: <input type="password" id="password" />
+            <span id="pass" style="display: none">Password should be at least 8 characters long!
+            </span>
+        </div>
+        <div>
+            Confirm password: <input type="password" id="confirm_password" />
+            <span id="c_pass" style="display: none">Passwords do not match!</span>
+        </div>
+
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
